@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins;
+        }
+
+        body {
+            background: #0d1117;
+            color: white;
+            padding: 40px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 65px;
+            color: #79d8ff;
+            margin-bottom: 40px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .menu button {
+            padding: 15px 35px;
+            background: #161b22;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .menu button:hover {
+            background: #79d8ff;
+            color: black;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #161b22;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 28px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="title">My Tech Stack</h1>
+
+    <div class="menu">
+        <button>All</button>
+        <button>Languages</button>
+        <button>Tools</button>
+        <button>Libraries</button>
+        <button>Databases</button>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+            <h2>C</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png">
+            <h2>C++</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+            <h2>Python</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+            <h2>Java</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+            <h2>HTML</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+            <h2>CSS</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png">
+            <h2>MySQL</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png">
+            <h2>React</h2>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
