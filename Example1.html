@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+        <title>Products</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <style>
+            .product-card {
+                border: 1px white solid;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .product-card img {
+                width: 100%;
+                height: 250px;
+                object-fit: contain;
+            }
+
+            .price {
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            .old-price {
+                text-decoration: line-through;
+                color: gray;
+            }
+
+            .discount {
+                color: green;
+                font-weight: bold;
+            }
+
+            .rating {
+                background: white;
+                color: purple;
+                padding: 3px 8px;
+                border-radius: 5px;
+            }
+
+            .stock {
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h1 class="text-center mb-4">Water Bottles</h1>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="bottle1.jpeg" alt="Bottle">
+                    <div class="card-body">
+                        <h5>SAF High Quality Water Bottle</h5>
+                        <span class="rating">4.0</span>
+                        <p>(2,020 Reviews)</p>
+
+                        <p>
+                            <span class="price">₹118</span>
+                            <span class="old-price">₹599</span>
+                            <span class="discount">80% Off</span>
+                        </p>
+
+                        <p class="stock">Only Few Left</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="bottle2.jpeg" alt="Bottle">
+                    <div class="card-body">
+                        <h5>ELINOR Stainless Steel Bottle</h5>
+                        <span class="rating">4.1</span>
+                        <p>(16,395 Reviews)</p>
+
+                        <p>
+                            <span class="price">₹178</span>
+                            <span class="old-price">₹499</span>
+                            <span class="discount">64% Off</span>
+                        </p>
+
+                        <p class="stock">Only Few Left</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="bottle3.jpeg" alt="Bottle">
+                    <div class="card-body">
+                        <h5>DFit 2L Motivational Bottle</h5>
+                        <span class="rating">4.1</span>
+                        <p>(23,274 Reviews)</p>
+
+                        <p>
+                            <span class="price">₹164</span>
+                            <span class="old-price">₹1288</span>
+                            <span class="discount">87% Off</span>
+                        </p>
+
+                        <p class="stock">Only Few Left</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
