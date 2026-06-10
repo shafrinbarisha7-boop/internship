@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showAlert() {
+            document.write("Hello, World!");
+            console.log("Button was clicked!");
+            alert("Button clicked!");
+        }
+        function clicksubmit(){
+            let name= document.getElementById("name").value;
+            console.log("Submitted name: " + name);
+            //alert("Submitted name: " + name);
+        }
+    </script>
+</head>
+<body style="background-color:lightblue;">
+    <form method="post" onsubmit="clicksubmit(); return false;">
+        <input type="text" id="name" placeholder="enter your name" required>
+    <button >submit</button>
+    <button onclick="showAlert()">Click here</button>
+    <button onclick="window.location.href='RMC-web.html'" style="margin-left: 10px; background-color:purple; color: white; padding: 10px 20px; border: none; cursor: pointer;">Go Home</button>
+<img src="rmc-logo.png" onclick="window.location.href='RMC-web.html'" alt="W3Schools.com" style="width:200px;">
+    </form>
+    
+</body>
+</html>
